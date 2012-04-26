@@ -10,7 +10,7 @@
  * {
  *	okClass: 'maxlength-ok',
  *	failClass: 'maxlength-warning',
- *	leftWords: ['zbıvá', 'zbıvají', 'zbıvá'] // [0] = for 1, [1] = for 2, 3 and 4, [2] = for more
+ *	leftWords: ['zbÃ½vÃ¡', 'zbÃ½vajÃ­', 'zbÃ½vÃ¡'] // [0] = for 1, [1] = for 2, 3 and 4, [2] = for more
  * }
  *
  * @version 1.0
@@ -25,7 +25,7 @@ $.fn.extend({
 			options = $.extend({
 				okClass: 'maxlength-ok',
 				failClass: 'maxlength-warning',
-				leftWords: ['zbıvá', 'zbıvají', 'zbıvá']
+				leftWords: ['zbÃ½vÃ¡', 'zbÃ½vajÃ­', 'zbÃ½vÃ¡']
 			}, o);
 
 		if (!attrMaxLen) return ;
