@@ -1,0 +1,19 @@
+<meta charset="utf-8">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="jquery.maxlength.js"></script>
+
+<textarea maxlength="32"></textarea>
+
+<style>
+	.ml-ok { color: green; }
+	.ml-err { color: red; }
+</style>
+
+<script>
+	$(function () {
+		$('textarea[maxlength]').maxlength({
+			okClass: 'ml-ok',
+			failClass: 'ml-err'
+		});
+	});
+</script>
