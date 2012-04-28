@@ -48,6 +48,7 @@ $.fn.extend({
 
 		$this.after( process() );
 		$this.bind("keyup.maxlength keydown.maxlength", process);
+		return $this;
 	}
 });
 
