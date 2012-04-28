@@ -28,7 +28,7 @@ $.fn.extend({
 				leftWords: ['zbývá', 'zbývají', 'zbývá']
 			}, o);
 
-		if (!attrMaxLen) return ;
+		if (!attrMaxLen) return $this;
 
 		var maxLen = parseInt( attrMaxLen ? attrMaxLen : 0, 10 ),
 			$div = $("<div>"),
