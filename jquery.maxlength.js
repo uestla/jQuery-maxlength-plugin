@@ -1,9 +1,10 @@
 /**
  * jQuery maxlength plugin
+ * -----------------------
+ * Displays character left when a maxlength is set on a textarea
  *
  * Usage:
- *
- * $('textarea[maxlength]').maxlength({ <options> });
+ * $('textarea[maxlength]').maxlength([options]);
  *
  * Available options (defaults set):
  *
@@ -13,8 +14,8 @@
  *	leftWords: ['zbývá', 'zbývají', 'zbývá'] // [0] = for 1, [1] = for 2, 3 and 4, [2] = for more
  * }
  *
- * @version 1.0
- * @author kesspess
+ * @version 1.1
+ * @author  kesspess
  */
 (function ($) {
 
