@@ -16,6 +16,7 @@
  *
  * @version 1.1
  * @author  kesspess
+ * @date    26. 4. 2012
  */
 (function ($) {
 
