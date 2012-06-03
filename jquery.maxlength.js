@@ -38,7 +38,7 @@ $.fn.extend({
 				var left = parseInt( maxLen - $this.val().length, 10),
 					limit = parseInt( Math.ceil( Math.log(maxLen) ), 10 );
 
-				$div.text( left + (left == 1 ? options.leftWords[0]
+				$div.text( left + (left == 1 ? " " + options.leftWords[0]
 					: (left == 2 || left == 3 || left == 4 ? " " + options.leftWords[1]
 						: " " + options.leftWords[2])
 					)
